@@ -17,11 +17,11 @@ const Test = ({ t }) => (
     <PureComponent t={t} />
     <ExtendedComponent />
     <ComponentWithTrans />
-    <Link href='/page2'>
+    <Link as={`/${t('link.goto2')}`} href='/page2'>
       <a>{t('link.gotoPage2')}</a>
     </Link>
     <br />
-    <Link href='/page3'>
+    <Link as={`/${t('link.goto3')}`} href='/page3'>
       <a>{t('link.gotoPage3')}</a>
     </Link>
   </div>

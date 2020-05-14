@@ -4,6 +4,9 @@
   "sample_button": "fire in the wind for en",
   "link": {
     "gotoPage2": "Go to page 2",
-    "gotoPage3": "Go to page 3 (no hoc)"
+    "goto2": "page2-english-version",
+    "gotoPage3": "Go to page 3 (no hoc)",
+    "goto3": "page3-english-version"
+
   }
 }
